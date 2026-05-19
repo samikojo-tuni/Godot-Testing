@@ -10,14 +10,14 @@ the knight based on it and physics (collisions, gravity).
 
 Implement the node Health. This node should track the current health amount a character has. The 
 current health is stored as integer value. The Health node should define the following interface:
-	- `get_health() -> int`
-		* returns the current health
-	- `set_health(amount : int) -> void`
-		* sets the health to the amount 'amount'
-	- `take_damage(amount : int) -> void`
-		* subtracts the 'amount' from current health
-	- `heal(amount : int) -> void`
-		* adds the 'amount' to current health
+- `get_health() -> int`
+  * returns the current health
+- `set_health(amount : int) -> void`
+  * sets the health to the amount 'amount'
+- `take_damage(amount : int) -> void`
+  * subtracts the 'amount' from current health
+- `heal(amount : int) -> void`
+  * adds the 'amount' to current health
 	
 There should also be a signal called health_changed, which is emitted every time the current 
 health's value changes. The current health value is passed with the signal.
