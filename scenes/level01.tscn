@@ -1,7 +1,7 @@
-[gd_scene format=4 uid="uid://uowx4csq3ufb"]
+[gd_scene format=4 uid="uid://xhtjvhhn7sru"]
 
 [ext_resource type="TileSet" uid="uid://dhog1tp7qudrp" path="res://config/world-tileset.tres" id="1_8es24"]
-[ext_resource type="PackedScene" uid="uid://ds1y1gs7dey8c" path="res://scenes/knight.tscn" id="2_8es24"]
+[ext_resource type="PackedScene" path="res://scenes/knight.tscn" id="2_8es24"]
 
 [node name="Level" type="Node2D" unique_id=1250402256]
 
